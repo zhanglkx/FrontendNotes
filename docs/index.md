@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "Evan's blog"
+  name: "Ari's blog"
   text: "Web前端技术博客"
   tagline: 积跬步以至千里，致敬每个爱学习的你
   image:
     src: /img/logo.png
-    alt: Evan's blog
+    alt: Ari's blog
   actions:
     - theme: brand
       text: 开始阅读

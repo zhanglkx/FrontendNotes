@@ -92,4 +92,3 @@ ECMAScript 6（简称 ES6）是 JavaScript 语言的下一代标准，已经在 
 <p align="center">
   开始你的 ES6 学习之旅吧！🚀
 </p>
-

@@ -550,7 +550,7 @@ export default defineConfig({
     footer: {
       message:
         '<a href="https://github.com/zhanglkx/FrontendNotes/blob/main/LICENSE" target="_blank">MIT License</a>',
-      copyright: "Copyright © 2024-present zhanglkx",
+      copyright: "Copyright © 2025-present zhanglkx",
     },
 
     // ==================== 文档页脚配置 ====================

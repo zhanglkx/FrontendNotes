@@ -378,7 +378,7 @@ npm run build
 ```
 MIT License
 
-Copyright (c) 2024-present zhanglkx
+Copyright (c) 2025-present zhanglkx
 ```
 
 这意味着你可以自由地使用、修改和分发本项目，但需要保留原作者的版权声明。

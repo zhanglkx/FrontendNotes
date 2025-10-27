@@ -378,7 +378,7 @@ This project is licensed under the [MIT](./LICENSE) License.
 ```
 MIT License
 
-Copyright (c) 2024-present zhanglkx
+Copyright (c) 2025-present zhanglkx
 ```
 
 This means you are free to use, modify, and distribute this project, but must retain the original author's copyright notice.

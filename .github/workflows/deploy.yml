@@ -1,11 +1,11 @@
 # 自动部署到 GitHub Pages 的工作流配置
 name: Deploy to GitHub Pages
 
-# 触发条件：当代码推送到 master 分支时
+# 触发条件：当代码推送到 main 分支时
 on:
   push:
     branches:
-      - master
+      - main
   # 允许手动触发工作流
   workflow_dispatch:
 
@@ -44,7 +44,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 9
 
       # 4. 获取 pnpm 缓存目录
       - name: Get pnpm store directory

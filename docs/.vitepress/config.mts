@@ -207,7 +207,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/x-icon",
-        href: `${ASSETS_PATH}img/favicon.ico`,
+        href: `${ASSETS_PATH}img/favicon.svg`,
       },
     ],
     [

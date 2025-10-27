@@ -127,38 +127,38 @@ export default defineConfig({
     "04.更多/03.面试/:path*": "pages/interview/:path*",
     "04.更多/05.心情杂货/:path*": "pages/mood/:path*",
     "04.更多/10.实用技巧/:path*": "pages/tips/:path*",
-    
+
     // 前端分类
     "01.前端/25.JavaScript文章/:path*": "pages/javascript/:path*",
-    
+
     // 页面分类
     "02.页面/20.CSS/:path*": "ui/css/:path*",
     "02.页面/10.HTML/:path*": "ui/html/:path*",
-    
+
     // 技术分类
     "03.技术/01.技术文档/:path*": "pages/tech-docs/:path*",
     "03.技术/02.GitHub技巧/:path*": "pages/github/:path*",
     "03.技术/03.Nodejs/:path*": "pages/nodejs/:path*",
     "03.技术/04.博客搭建/:path*": "pages/blog/:path*",
-    
+
     // Git 学习笔记
     "《Git》学习笔记/10.手册/:path*": "pages/git-manual/:path*",
     "《Git》学习笔记/20.文档笔记/:path*": "pages/git-docs/:path*",
-    
+
     // JavaScript 教程笔记
     "《JavaScript教程》笔记/:path*": "pages/js-tutorial/:path*",
-    
+
     // React 笔记
     "《React》笔记/01.核心概念/:path*": "pages/react-core/:path*",
     "《React》笔记/03.Hook/:path*": "pages/react-hook/:path*",
-    
+
     // Vue 笔记
     "《Vue》笔记/01.基础/:path*": "pages/vue-basics/:path*",
     "《Vue》笔记/02.组件/:path*": "pages/vue-components/:path*",
     "《Vue》笔记/03.过渡&动画/:path*": "pages/vue-transition/:path*",
     "《Vue》笔记/06.规模化/:path*": "pages/vue-scale/:path*",
     "《Vue》笔记/99.其他/:path*": "pages/vue-others/:path*",
-    
+
     // 其他
     "00.目录页/:path*": "pages/directories/:path*",
     "06.收藏夹/:path*": "pages/favorites/:path*",

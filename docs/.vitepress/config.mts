@@ -168,6 +168,9 @@ export default defineConfig({
     "《Vue》笔记/03.过渡&动画/:path*": "pages/vue-transition/:path*",
     "《Vue》笔记/06.规模化/:path*": "pages/vue-scale/:path*",
     "《Vue》笔记/99.其他/:path*": "pages/vue-others/:path*",
+    
+    // TypeScript 笔记
+    "《TypeScript 从零实现 axios》/:path*": "pages/ts-axios/:path*",
 
     // 其他
     "00.目录页/:path*": "pages/directories/:path*",
@@ -327,11 +330,11 @@ export default defineConfig({
                 text: "ES6 教程",
                 link: "/《ES6 教程》笔记/01.ECMAScript 6 简介",
               },
-              { text: "Vue", link: "/《Vue》笔记/01.基础/" },
-              { text: "React", link: "/《React》笔记/01.核心概念/" },
+              { text: "Vue", link: "/pages/vue-basics/" },
+              { text: "React", link: "/pages/react-core/" },
               {
                 text: "TypeScript 从零实现 axios",
-                link: "/《TypeScript 从零实现 axios》/01.初识 TypeScript/",
+                link: "/pages/ts-axios/",
               },
               { text: "Git 手册", link: "/pages/git-manual/" },
               { text: "Git 文档", link: "/pages/git-docs/" },

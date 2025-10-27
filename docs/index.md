@@ -6,7 +6,7 @@ hero:
   text: "Web前端技术博客"
   tagline: 积跬步以至千里，致敬每个爱学习的你
   image:
-    src: /img/logo.png
+    src: https://raw.githubusercontent.com/Aniket965/Aniket965/master/pacman.svg?sanitize=true
     alt: Ari's blog
   actions:
     - theme: brand

@@ -371,6 +371,7 @@ export default defineConfig({
           { text: "友情链接", link: "/04.更多/99.友情链接" },
         ],
       },
+      { text: "项目指南", link: "/guide/项目搭建指南" },
       { text: "关于", link: "/05.关于/01.关于" },
       { text: "收藏", link: "/06.收藏夹/01.网站" },
     ],

@@ -168,7 +168,7 @@ export default defineConfig({
     "《Vue》笔记/03.过渡&动画/:path*": "pages/vue-transition/:path*",
     "《Vue》笔记/06.规模化/:path*": "pages/vue-scale/:path*",
     "《Vue》笔记/99.其他/:path*": "pages/vue-others/:path*",
-    
+
     // TypeScript 笔记
     "《TypeScript 从零实现 axios》/:path*": "pages/ts-axios/:path*",
 

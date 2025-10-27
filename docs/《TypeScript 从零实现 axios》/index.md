@@ -22,10 +22,10 @@ article: false
 
 <div style="display: grid; gap: 1rem; margin: 1.5rem 0;">
 
-[**初识 TypeScript**](./01.初识%20TypeScript/)  
+[**初识 TypeScript**](./01.初识%20TypeScript/)
 了解 TypeScript 的基本概念和开发环境配置
 
-[**TypeScript 常用语法**](./02.TypeScript%20常用语法/)  
+[**TypeScript 常用语法**](./02.TypeScript%20常用语法/)
 掌握 TypeScript 的核心语法和类型系统
 
 </div>
@@ -34,28 +34,28 @@ article: false
 
 <div style="display: grid; gap: 1rem; margin: 1.5rem 0;">
 
-[**项目初始化**](./03.ts-axios%20项目初始化/)  
+[**项目初始化**](./03.ts-axios%20项目初始化/)
 搭建项目基础架构
 
-[**基础功能实现**](./04.ts-axios%20基础功能实现/)  
+[**基础功能实现**](./04.ts-axios%20基础功能实现/)
 实现 HTTP 请求的基本功能
 
-[**异常情况处理**](./05.ts-axios%20异常情况处理/)  
+[**异常情况处理**](./05.ts-axios%20异常情况处理/)
 完善错误处理机制
 
-[**接口扩展**](./06.ts-axios%20接口扩展/)  
+[**接口扩展**](./06.ts-axios%20接口扩展/)
 扩展更多实用接口
 
-[**拦截器实现**](./07.ts-axios%20拦截器实现/)  
+[**拦截器实现**](./07.ts-axios%20拦截器实现/)
 实现请求和响应拦截器
 
-[**配置化实现**](./08.ts-axios%20配置化实现/)  
+[**配置化实现**](./08.ts-axios%20配置化实现/)
 支持灵活的配置管理
 
-[**取消功能实现**](./09.ts-axios%20取消功能实现/)  
+[**取消功能实现**](./09.ts-axios%20取消功能实现/)
 实现请求取消功能
 
-[**更多功能实现**](./10.ts-axios%20更多功能实现/)  
+[**更多功能实现**](./10.ts-axios%20更多功能实现/)
 添加更多高级特性
 
 </div>
@@ -64,10 +64,10 @@ article: false
 
 <div style="display: grid; gap: 1rem; margin: 1.5rem 0;">
 
-[**单元测试**](./11.ts-axios%20单元测试/)  
+[**单元测试**](./11.ts-axios%20单元测试/)
 编写完善的单元测试
 
-[**部署与发布**](./12.ts-axios%20部署与发布/)  
+[**部署与发布**](./12.ts-axios%20部署与发布/)
 将项目发布到 npm
 
 </div>
@@ -93,4 +93,3 @@ article: false
 <p align="center">
   开始你的 TypeScript 之旅吧！🚀
 </p>
-

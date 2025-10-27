@@ -74,7 +74,17 @@ const blogTheme = getThemeConfig({
 
   // 搜索配置 - 使用 Pagefind 全文搜索
   // @see https://pagefind.app/
-  search: "pagefind",
+  // @see https://theme.sugarat.top/config/search.html
+  search: {
+    btnPlaceholder: "搜索",
+    placeholder: "搜索文档",
+    emptyText: "暂无结果",
+    heading: "共 {{searchResult}} 条结果",
+    toNavigate: "切换",
+    toSelect: "选择",
+    toClose: "关闭",
+    searchBy: "搜索提供者",
+  },
 
   // 评论系统配置 - 使用 Giscus
   // 访问 https://giscus.app/zh-CN 获取配置

@@ -157,6 +157,9 @@ export default defineConfig({
 
     // JavaScript 教程笔记
     "《JavaScript教程》笔记/:path*": "pages/js-tutorial/:path*",
+    
+    // ES6 教程笔记
+    "《ES6 教程》笔记/:path*": "pages/es6-tutorial/:path*",
 
     // React 笔记
     "《React》笔记/01.核心概念/:path*": "pages/react-core/:path*",
@@ -328,7 +331,7 @@ export default defineConfig({
               { text: "JavaScript教程", link: "/pages/js-tutorial/" },
               {
                 text: "ES6 教程",
-                link: "/《ES6 教程》笔记/01.ECMAScript 6 简介",
+                link: "/pages/es6-tutorial/",
               },
               { text: "Vue", link: "/pages/vue-basics/" },
               { text: "React", link: "/pages/react-core/" },
@@ -396,66 +399,30 @@ export default defineConfig({
           text: "ES6 教程笔记",
           collapsed: false,
           items: [
-            {
-              text: "ECMAScript 6 简介",
-              link: "/《ES6 教程》笔记/01.ECMAScript 6 简介",
-            },
-            {
-              text: "let 和 const 命令",
-              link: "/《ES6 教程》笔记/02.let 和 const 命令",
-            },
-            {
-              text: "变量的解构赋值",
-              link: "/《ES6 教程》笔记/03.变量的解构赋值",
-            },
-            { text: "字符串的扩展", link: "/《ES6 教程》笔记/04.字符串的扩展" },
-            {
-              text: "字符串的新增方法",
-              link: "/《ES6 教程》笔记/05.字符串的新增方法",
-            },
-            { text: "正则的扩展", link: "/《ES6 教程》笔记/06.正则的扩展" },
-            { text: "数值的扩展", link: "/《ES6 教程》笔记/07.数值的扩展" },
-            { text: "函数的扩展", link: "/《ES6 教程》笔记/08.函数的扩展" },
-            { text: "数组的扩展", link: "/《ES6 教程》笔记/09.数组的扩展" },
-            { text: "对象的扩展", link: "/《ES6 教程》笔记/10.对象的扩展" },
-            {
-              text: "对象的新增方法",
-              link: "/《ES6 教程》笔记/11.对象的新增方法",
-            },
-            { text: "Symbol", link: "/《ES6 教程》笔记/12.Symbol" },
-            {
-              text: "Set 和 Map 数据结构",
-              link: "/《ES6 教程》笔记/13.Set 和 Map 数据结构",
-            },
-            { text: "Proxy", link: "/《ES6 教程》笔记/14.Proxy" },
-            { text: "Reflect", link: "/《ES6 教程》笔记/15.Reflect" },
-            { text: "Promise 对象", link: "/《ES6 教程》笔记/16.Promise 对象" },
-            {
-              text: "Iterator 和 for-of 循环",
-              link: "/《ES6 教程》笔记/17.Iterator 和 for-of 循环",
-            },
-            {
-              text: "Generator 函数的语法",
-              link: "/《ES6 教程》笔记/18.Generator 函数的语法",
-            },
-            {
-              text: "Generator 函数的异步应用",
-              link: "/《ES6 教程》笔记/19.Generator 函数的异步应用",
-            },
-            { text: "async 函数", link: "/《ES6 教程》笔记/20.async 函数" },
-            {
-              text: "Class 的基本语法",
-              link: "/《ES6 教程》笔记/21.Class 的基本语法",
-            },
-            { text: "Class 的继承", link: "/《ES6 教程》笔记/22.Class 的继承" },
-            {
-              text: "Module 的语法",
-              link: "/《ES6 教程》笔记/23.Module 的语法",
-            },
-            {
-              text: "Module 的加载实现",
-              link: "/《ES6 教程》笔记/24.Module 的加载实现",
-            },
+            { text: "ES6 简介", link: "/pages/es6-tutorial/intro" },
+            { text: "let 和 const", link: "/pages/es6-tutorial/let" },
+            { text: "解构赋值", link: "/pages/es6-tutorial/destructuring" },
+            { text: "字符串扩展", link: "/pages/es6-tutorial/string" },
+            { text: "字符串方法", link: "/pages/es6-tutorial/string-methods" },
+            { text: "正则扩展", link: "/pages/es6-tutorial/regex" },
+            { text: "数值扩展", link: "/pages/es6-tutorial/number" },
+            { text: "函数扩展", link: "/pages/es6-tutorial/function" },
+            { text: "数组扩展", link: "/pages/es6-tutorial/array" },
+            { text: "对象扩展", link: "/pages/es6-tutorial/object" },
+            { text: "对象方法", link: "/pages/es6-tutorial/object-methods" },
+            { text: "Symbol", link: "/pages/es6-tutorial/symbol" },
+            { text: "Set 和 Map", link: "/pages/es6-tutorial/set-map" },
+            { text: "Proxy", link: "/pages/es6-tutorial/proxy" },
+            { text: "Reflect", link: "/pages/es6-tutorial/reflect" },
+            { text: "Promise", link: "/pages/es6-tutorial/promise" },
+            { text: "Iterator", link: "/pages/es6-tutorial/iterator" },
+            { text: "Generator", link: "/pages/es6-tutorial/generator" },
+            { text: "Generator 异步", link: "/pages/es6-tutorial/generator-async" },
+            { text: "async 函数", link: "/pages/es6-tutorial/async" },
+            { text: "Class 语法", link: "/pages/es6-tutorial/class" },
+            { text: "Class 继承", link: "/pages/es6-tutorial/class-extends" },
+            { text: "Module 语法", link: "/pages/es6-tutorial/module" },
+            { text: "Module 加载", link: "/pages/es6-tutorial/module-loader" },
           ],
         },
       ],

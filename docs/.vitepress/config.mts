@@ -157,7 +157,7 @@ export default defineConfig({
 
     // JavaScript 教程笔记
     "《JavaScript教程》笔记/:path*": "pages/js-tutorial/:path*",
-    
+
     // ES6 教程笔记
     "《ES6 教程》笔记/:path*": "pages/es6-tutorial/:path*",
 
@@ -417,7 +417,10 @@ export default defineConfig({
             { text: "Promise", link: "/pages/es6-tutorial/promise" },
             { text: "Iterator", link: "/pages/es6-tutorial/iterator" },
             { text: "Generator", link: "/pages/es6-tutorial/generator" },
-            { text: "Generator 异步", link: "/pages/es6-tutorial/generator-async" },
+            {
+              text: "Generator 异步",
+              link: "/pages/es6-tutorial/generator-async",
+            },
             { text: "async 函数", link: "/pages/es6-tutorial/async" },
             { text: "Class 语法", link: "/pages/es6-tutorial/class" },
             { text: "Class 继承", link: "/pages/es6-tutorial/class-extends" },

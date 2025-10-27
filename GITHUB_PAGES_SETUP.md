@@ -43,7 +43,7 @@ git push origin master
 https://<你的用户名>.github.io/<仓库名>/
 ```
 
-例如：`https://xugaoyi.github.io/vuepress-theme-vdoing/`
+例如：`https://github.com/zhanglkx/FrontendNotes`
 
 ## 🔧 工作流说明
 
@@ -63,13 +63,13 @@ https://<你的用户名>.github.io/<仓库名>/
 ```typescript
 export default defineConfig({
   extends: blogTheme,
-  
+
   // 如果部署到 https://<username>.github.io/<repo>/
   base: '/仓库名/',
-  
+
   // 如果部署到 https://<username>.github.io/
   // base: '/',
-  
+
   // ...其他配置
 })
 ```

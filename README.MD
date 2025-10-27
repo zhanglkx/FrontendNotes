@@ -420,7 +420,7 @@ Copyright (c) 2024-present zhanglkx
 - [@sugarat/theme](https://theme.sugarat.top/) - 功能丰富的博客主题
 - [Vue.js](https://vuejs.org/) - 渐进式 JavaScript 框架
 - [Vite](https://vitejs.dev/) - 极速的前端构建工具
-- [VuePress Theme Vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - 原主题灵感来源
+- [VuePress Theme Vdoing](https://github.com/zhanglkx/FrontendNotes) - 原主题灵感来源
 
 ## 📞 联系方式
 

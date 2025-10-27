@@ -419,7 +419,7 @@ Thanks to the following excellent open source projects and contributors:
 - [@sugarat/theme](https://theme.sugarat.top/) - Feature-rich blog theme
 - [Vue.js](https://vuejs.org/) - Progressive JavaScript framework
 - [Vite](https://vitejs.dev/) - Lightning fast frontend build tool
-- [VuePress Theme Vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) - Original theme inspiration
+- [VuePress Theme Vdoing](https://github.com/zhanglkx/FrontendNotes) - Original theme inspiration
 
 ## 📞 Contact
 

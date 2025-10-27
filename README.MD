@@ -179,7 +179,6 @@ bash deploy.sh
 ├── CONTRIBUTING.md            # 贡献指南
 ├── CODE_OF_CONDUCT.md         # 行为准则
 ├── CHANGELOG.md               # 版本更新日志
-├── MIGRATION.md               # VuePress 迁移指南
 ├── LICENSE                    # MIT 开源协议
 └── README.md                  # 项目说明文档（本文件）
 ```
@@ -270,34 +269,6 @@ VitePress 支持丰富的 Markdown 扩展：
 | [medium-zoom](https://github.com/francoischalifour/medium-zoom) | ^1.1.0 | 图片放大预览 |
 | [Giscus](https://giscus.app/) | - | 基于 GitHub Discussions 的评论系统 |
 | [Sass](https://sass-lang.com/) | ^1.80.6 | CSS 预处理器 |
-
-## 📊 性能对比
-
-从 VuePress 1.x 迁移到 VitePress 后的性能提升：
-
-| 指标 | VuePress 1.x | VitePress | 提升 |
-|------|-------------|-----------|------|
-| 开发启动 | 30-60 秒 | 2-3 秒 | 🚀 10-20x |
-| 热更新 | 3-5 秒 | 即时 | ⚡️ 即时响应 |
-| 构建速度 | 基准 | 5-10x | 📦 更快 |
-| 包体积 | 基准 | -30~50% | 💾 更小 |
-
-## 🔄 迁移说明
-
-本项目已从 **VuePress 1.x + vdoing 主题** 迁移到 **VitePress + 糖果主题**。
-
-### 主要变更
-
-- ✅ VuePress 1.9.9 → VitePress 1.5.0
-- ✅ Webpack → Vite 构建工具
-- ✅ Vue 2 → Vue 3
-- ✅ 移除 `--openssl-legacy-provider` 要求
-- ✅ vdoing 主题 → 糖果主题
-
-### 详细迁移指南
-
-如果你从旧版本迁移过来，或想了解更多迁移细节，请查看：
-👉 [完整迁移指南](./MIGRATION.md)
 
 ## 🎯 功能特性
 
@@ -420,7 +391,6 @@ Copyright (c) 2024-present zhanglkx
 - [@sugarat/theme](https://theme.sugarat.top/) - 功能丰富的博客主题
 - [Vue.js](https://vuejs.org/) - 渐进式 JavaScript 框架
 - [Vite](https://vitejs.dev/) - 极速的前端构建工具
-- [VuePress Theme Vdoing](https://github.com/zhanglkx/FrontendNotes) - 原主题灵感来源
 
 ## 📞 联系方式
 

@@ -179,7 +179,6 @@ bash deploy.sh
 ├── CONTRIBUTING.md            # Contributing guide
 ├── CODE_OF_CONDUCT.md         # Code of conduct
 ├── CHANGELOG.md               # Version changelog
-├── MIGRATION.md               # VuePress migration guide
 ├── LICENSE                    # MIT license
 └── README.md                  # Project documentation
 ```
@@ -270,33 +269,6 @@ Main configuration file is located at `docs/.vitepress/config.mts`:
 | [medium-zoom](https://github.com/francoischalifour/medium-zoom) | ^1.1.0 | Image zoom library |
 | [Giscus](https://giscus.app/) | - | GitHub Discussions powered comment system |
 | [Sass](https://sass-lang.com/) | ^1.80.6 | CSS preprocessor |
-
-## 📊 Performance Comparison
-
-Performance improvements after migrating from VuePress 1.x to VitePress:
-
-| Metric | VuePress 1.x | VitePress | Improvement |
-|--------|--------------|-----------|-------------|
-| Dev Startup | 30-60s | 2-3s | 🚀 10-20x faster |
-| HMR | 3-5s | Instant | ⚡️ Instant response |
-| Build Speed | Baseline | 5-10x | 📦 Much faster |
-| Bundle Size | Baseline | -30~50% | 💾 Smaller |
-
-## 🔄 Migration Notes
-
-This project has been migrated from **VuePress 1.x + vdoing theme** to **VitePress + Sugar theme**.
-
-### Major Changes
-
-- ✅ VuePress 1.9.9 → VitePress 1.5.0
-- ✅ Webpack → Vite build tool
-- ✅ Vue 2 → Vue 3
-- ✅ Removed `--openssl-legacy-provider` requirement
-- ✅ vdoing theme → Sugar theme
-
-### Detailed Migration Guide
-
-For detailed migration information, see: 👉 [Full Migration Guide](./MIGRATION.md)
 
 ## 🎯 Features
 
@@ -419,7 +391,6 @@ Thanks to the following excellent open source projects and contributors:
 - [@sugarat/theme](https://theme.sugarat.top/) - Feature-rich blog theme
 - [Vue.js](https://vuejs.org/) - Progressive JavaScript framework
 - [Vite](https://vitejs.dev/) - Lightning fast frontend build tool
-- [VuePress Theme Vdoing](https://github.com/zhanglkx/FrontendNotes) - Original theme inspiration
 
 ## 📞 Contact
 

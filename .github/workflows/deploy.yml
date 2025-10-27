@@ -64,7 +64,7 @@ jobs:
 
       # 6. 安装依赖
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       # 7. 构建 VitePress 站点
       - name: Build with VitePress

@@ -47,7 +47,7 @@ jobs:
           cache: "pnpm"
 
       - name: 安装依赖
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: 构建 VitePress 站点
         run: pnpm run build

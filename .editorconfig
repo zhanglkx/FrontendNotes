@@ -1,0 +1,42 @@
+# EditorConfig 配置文件
+# 统一不同编辑器和 IDE 的代码风格
+# https://editorconfig.org
+
+# 顶级配置文件
+root = true
+
+# 所有文件的默认设置
+[*]
+charset = utf-8                    # 字符编码
+end_of_line = lf                   # 换行符（Unix 风格）
+insert_final_newline = true        # 文件末尾插入空行
+trim_trailing_whitespace = true    # 删除行尾空格
+indent_style = space               # 使用空格缩进
+indent_size = 2                    # 缩进大小为 2 个空格
+
+# Markdown 文件
+[*.md]
+trim_trailing_whitespace = false   # Markdown 中保留行尾空格（用于换行）
+max_line_length = off              # 不限制行长度
+
+# JSON 文件
+[*.json]
+indent_size = 2
+
+# YAML 文件
+[*.{yml,yaml}]
+indent_size = 2
+
+# Shell 脚本
+[*.sh]
+end_of_line = lf                   # Unix 换行符
+indent_size = 2
+
+# Makefile
+[Makefile]
+indent_style = tab                 # Makefile 使用 tab 缩进
+
+# 包管理器锁文件（不修改）
+[{package-lock.json,pnpm-lock.yaml,yarn.lock}]
+indent_size = unset
+insert_final_newline = unset

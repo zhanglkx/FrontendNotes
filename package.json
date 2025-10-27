@@ -1,0 +1,54 @@
+{
+  "name": "frontend-notes",
+  "version": "2.0.0",
+  "description": "现代化的前端知识管理和学习笔记平台，基于 VitePress + 糖果主题构建",
+  "type": "module",
+  "keywords": [
+    "frontend",
+    "notes",
+    "blog",
+    "vitepress",
+    "vue",
+    "javascript",
+    "typescript",
+    "react",
+    "learning",
+    "knowledge-base",
+    "documentation",
+    "tutorial"
+  ],
+  "homepage": "https://zhanglkx.github.io/frontend-notes/",
+  "bugs": {
+    "url": "https://github.com/zhanglkx/frontend-notes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanglkx/frontend-notes.git"
+  },
+  "author": {
+    "name": "zhanglkx",
+    "url": "https://github.com/zhanglkx"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@sugarat/theme": "^0.4.10",
+    "@types/node": "^22.9.1",
+    "medium-zoom": "^1.1.0",
+    "sass": "^1.80.6",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.12"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

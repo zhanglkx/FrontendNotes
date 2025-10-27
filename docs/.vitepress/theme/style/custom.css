@@ -1,0 +1,123 @@
+/**
+ * 自定义样式
+ * 覆盖和扩展默认主题样式
+ */
+
+/* 全局样式调整 */
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* 代码块样式优化 */
+.vp-doc div[class*='language-'] {
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--vp-c-bg);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--vp-c-brand-1);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--vp-c-brand-2);
+}
+
+/* 图片样式 */
+.vp-doc img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.vp-doc img:hover {
+    transform: scale(1.02);
+    cursor: zoom-in;
+}
+
+/* 表格样式优化 */
+.vp-doc table {
+    display: block;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+/* 链接样式 */
+.vp-doc a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.vp-doc a:hover {
+    text-decoration: underline;
+}
+
+/* 自定义容器样式 */
+.custom-block {
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+/* 首页特色区域样式 */
+.VPFeatures {
+    padding: 48px 24px;
+}
+
+.VPFeature {
+    transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 导航栏样式 */
+.VPNav {
+    backdrop-filter: blur(8px);
+}
+
+/* 侧边栏样式 */
+.VPSidebar {
+    padding: 24px 0;
+}
+
+/* Medium Zoom 样式 */
+.medium-zoom-overlay {
+    z-index: 100;
+}
+
+.medium-zoom-image--opened {
+    z-index: 101;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .vp-doc img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* 打印样式 */
+@media print {
+
+    .VPNav,
+    .VPSidebar,
+    .VPFooter {
+        display: none;
+    }
+}

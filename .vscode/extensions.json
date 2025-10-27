@@ -1,0 +1,42 @@
+{
+  "recommendations": [
+    // Vue 开发
+    "vue.volar",
+
+    // TypeScript 支持
+    "vue.vscode-typescript-vue-plugin",
+
+    // Markdown 支持
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+
+    // 代码格式化
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+
+    // Git 增强
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+
+    // 路径智能提示
+    "christian-kohler.path-intellisense",
+
+    // 图标主题
+    "vscode-icons-team.vscode-icons",
+
+    // 中文语言包
+    "ms-ceintl.vscode-language-pack-zh-hans",
+
+    // 代码拼写检查
+    "streetsidesoftware.code-spell-checker",
+
+    // TODO 高亮
+    "wayou.vscode-todo-highlight",
+
+    // 括号配对着色
+    "coenraads.bracket-pair-colorizer-2",
+
+    // 颜色高亮
+    "naumovs.color-highlight"
+  ]
+}

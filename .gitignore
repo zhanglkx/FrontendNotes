@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# VitePress build output
+docs/.vitepress/dist
+docs/.vitepress/cache
+.temp
+
+# VuePress build output (legacy)
+docs/.vuepress/dist
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Backup files
+backup_vuepress_*/
+
+# VitePress cache
+.vitepress/cache/
+
+# Search index
+pagefind/

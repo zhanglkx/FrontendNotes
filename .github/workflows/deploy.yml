@@ -74,7 +74,11 @@ jobs:
           # 设置 base 路径
           GITHUB_ACTIONS: true
 
-      # 8. 上传构建产物
+      # 8. 添加 .nojekyll 文件
+      - name: Add .nojekyll file
+        run: touch docs/.vitepress/dist/.nojekyll
+
+      # 9. 上传构建产物
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

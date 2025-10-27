@@ -19,6 +19,9 @@ const DOMAIN_NAME = "zhanglkx.github.io";
 const BASE_PATH = "/FrontendNotes/";
 const WEB_SITE = `https://${DOMAIN_NAME}${BASE_PATH}`;
 
+// 根据环境动态设置路径前缀
+const ASSETS_PATH = process.env.GITHUB_ACTIONS ? BASE_PATH : "/";
+
 // ==================== 糖果主题配置 ====================
 
 // 获取糖果主题配置
@@ -170,9 +173,10 @@ export default defineConfig({
   // 在页面 HTML 的 <head> 标签中注入的标签
   head: [
     // 网站图标 - 支持多种设备和场景
-    ["link", { rel: "icon", type: "image/png", href: "/img/logo.png" }],
-    ["link", { rel: "apple-touch-icon", href: "/img/logo.png" }],
-    ["link", { rel: "shortcut icon", href: "/img/logo.png" }],
+    // 使用动态路径确保在开发和生产环境都能正确加载
+    ["link", { rel: "icon", type: "image/x-icon", href: `${ASSETS_PATH}img/favicon.ico` }],
+    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: `${ASSETS_PATH}img/logo.png` }],
+    ["link", { rel: "apple-touch-icon", sizes: "180x180", href: `${ASSETS_PATH}img/logo.png` }],
 
     // SEO 关键词
     [

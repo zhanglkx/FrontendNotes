@@ -1,0 +1,70 @@
+name: Deploy VitePress to GitHub Pages
+
+# 在 master 分支发生 push 事件时触发
+on:
+  push:
+    branches:
+      - master
+
+env:
+  TZ: Asia/Shanghai # 时区设置
+
+# 设置 GITHUB_TOKEN 的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 只允许一个并发部署
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # 构建任务
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - name: Checkout 代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 获取所有历史记录（用于显示最后更新时间）
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: 设置 Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
+
+      - name: 构建 VitePress 站点
+        run: pnpm run build
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
+
+  # 部署任务
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

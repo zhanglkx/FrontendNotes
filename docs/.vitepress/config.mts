@@ -16,7 +16,7 @@ import { getThemeConfig } from "@sugarat/theme/node";
 // 域名配置
 // 如果你有自定义域名，修改这里；否则使用 GitHub Pages 默认域名
 const DOMAIN_NAME = "zhanglkx.github.io";
-const BASE_PATH = "/frontend-notes/";
+const BASE_PATH = "/FrontendNotes/";
 const WEB_SITE = `https://${DOMAIN_NAME}${BASE_PATH}`;
 
 // ==================== 糖果主题配置 ====================
@@ -77,7 +77,7 @@ const blogTheme = getThemeConfig({
   // 访问 https://giscus.app/zh-CN 获取配置
   // 需要开启 GitHub Discussions 功能
   comment: {
-    repo: "zhanglkx/frontend-notes", // 你的仓库名
+    repo: "zhanglkx/FrontendNotes", // 你的仓库名
     repoId: "", // 从 giscus.app 获取
     category: "Announcements",
     categoryId: "", // 从 giscus.app 获取
@@ -151,7 +151,7 @@ export default defineConfig({
   // GitHub Pages 部署路径: /<仓库名>/
   // 如果部署到根路径，设置为 '/'
   // 生产环境使用 GitHub Actions 部署，开发环境使用根路径
-  base: process.env.GITHUB_ACTIONS ? "/frontend-notes/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/FrontendNotes/" : "/",
 
   // ==================== 站点元信息 ====================
 
@@ -416,7 +416,7 @@ export default defineConfig({
     // ==================== 页脚配置 ====================
     footer: {
       message:
-        '<a href="https://github.com/zhanglkx/frontend-notes/blob/master/LICENSE" target="_blank">MIT License</a>',
+        '<a href="https://github.com/zhanglkx/FrontendNotes/blob/main/LICENSE" target="_blank">MIT License</a>',
       copyright: "Copyright © 2024-present zhanglkx",
     },
 
@@ -446,8 +446,7 @@ export default defineConfig({
     // ==================== 编辑链接配置 ====================
     // "在 GitHub 上编辑此页" 链接
     editLink: {
-      pattern:
-        "https://github.com/zhanglkx/frontend-notes/edit/master/docs/:path",
+      pattern: "https://github.com/zhanglkx/FrontendNotes/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页",
     },
   },

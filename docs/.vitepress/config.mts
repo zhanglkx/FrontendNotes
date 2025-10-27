@@ -169,8 +169,10 @@ export default defineConfig({
 
   // 在页面 HTML 的 <head> 标签中注入的标签
   head: [
-    // 网站图标
-    ["link", { rel: "icon", href: "/img/favicon.ico" }],
+    // 网站图标 - 支持多种设备和场景
+    ["link", { rel: "icon", type: "image/png", href: "/img/logo.png" }],
+    ["link", { rel: "apple-touch-icon", href: "/img/logo.png" }],
+    ["link", { rel: "shortcut icon", href: "/img/logo.png" }],
 
     // SEO 关键词
     [

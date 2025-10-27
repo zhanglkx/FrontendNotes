@@ -394,7 +394,7 @@ export default defineConfig({
           ],
         },
       ],
-      
+
       // ES6 教程笔记（重写后的路径）
       "/pages/es6-tutorial/": [
         {
@@ -419,7 +419,10 @@ export default defineConfig({
             { text: "Promise", link: "/pages/es6-tutorial/promise" },
             { text: "Iterator", link: "/pages/es6-tutorial/iterator" },
             { text: "Generator", link: "/pages/es6-tutorial/generator" },
-            { text: "Generator 异步", link: "/pages/es6-tutorial/generator-async" },
+            {
+              text: "Generator 异步",
+              link: "/pages/es6-tutorial/generator-async",
+            },
             { text: "async 函数", link: "/pages/es6-tutorial/async" },
             { text: "异步遍历器", link: "/pages/es6-tutorial/async-iterator" },
             { text: "Class 语法", link: "/pages/es6-tutorial/class" },
@@ -431,7 +434,7 @@ export default defineConfig({
           ],
         },
       ],
-      
+
       // Vue 笔记（重写后的路径）
       "/pages/vue-basics/": [
         {
@@ -440,13 +443,22 @@ export default defineConfig({
           items: [
             { text: "MVVM 模式", link: "/pages/vue-basics/00.MVVM模式" },
             { text: "生命周期", link: "/pages/vue-basics/10.生命周期" },
-            { text: "计算属性 vs 方法", link: "/pages/vue-basics/20.计算属性 vs 方法 vs 侦听属性" },
-            { text: "v-if vs v-show", link: "/pages/vue-basics/30.v-if vs v-show" },
-            { text: "列表渲染更新检测", link: "/pages/vue-basics/35.列表渲染之数组、对象更新检测" },
+            {
+              text: "计算属性 vs 方法",
+              link: "/pages/vue-basics/20.计算属性 vs 方法 vs 侦听属性",
+            },
+            {
+              text: "v-if vs v-show",
+              link: "/pages/vue-basics/30.v-if vs v-show",
+            },
+            {
+              text: "列表渲染更新检测",
+              link: "/pages/vue-basics/35.列表渲染之数组、对象更新检测",
+            },
           ],
         },
       ],
-      
+
       // React 核心概念（重写后的路径）
       "/pages/react-core/": [
         {
@@ -456,7 +468,10 @@ export default defineConfig({
             { text: "JSX 简介", link: "/pages/react-core/01.JSX简介" },
             { text: "元素渲染", link: "/pages/react-core/02.元素渲染" },
             { text: "组件 & Props", link: "/pages/react-core/03.组件&Props" },
-            { text: "State & 生命周期", link: "/pages/react-core/04.State&生命周期" },
+            {
+              text: "State & 生命周期",
+              link: "/pages/react-core/04.State&生命周期",
+            },
             { text: "事件处理", link: "/pages/react-core/05.事件处理" },
             { text: "条件渲染", link: "/pages/react-core/06.条件渲染" },
             { text: "列表 & Key", link: "/pages/react-core/07.列表&Key" },
@@ -467,25 +482,55 @@ export default defineConfig({
           ],
         },
       ],
-      
+
       // TypeScript 从零实现 axios（重写后的路径）
       "/pages/ts-axios/": [
         {
           text: "TypeScript 从零实现 axios",
           collapsed: false,
           items: [
-            { text: "初识 TypeScript", link: "/pages/ts-axios/01.初识 TypeScript/" },
-            { text: "TypeScript 常用语法", link: "/pages/ts-axios/02.TypeScript 常用语法/" },
-            { text: "项目初始化", link: "/pages/ts-axios/03.ts-axios 项目初始化/" },
-            { text: "基础功能实现", link: "/pages/ts-axios/04.ts-axios 基础功能实现/" },
-            { text: "异常情况处理", link: "/pages/ts-axios/05.ts-axios 异常情况处理/" },
+            {
+              text: "初识 TypeScript",
+              link: "/pages/ts-axios/01.初识 TypeScript/",
+            },
+            {
+              text: "TypeScript 常用语法",
+              link: "/pages/ts-axios/02.TypeScript 常用语法/",
+            },
+            {
+              text: "项目初始化",
+              link: "/pages/ts-axios/03.ts-axios 项目初始化/",
+            },
+            {
+              text: "基础功能实现",
+              link: "/pages/ts-axios/04.ts-axios 基础功能实现/",
+            },
+            {
+              text: "异常情况处理",
+              link: "/pages/ts-axios/05.ts-axios 异常情况处理/",
+            },
             { text: "接口扩展", link: "/pages/ts-axios/06.ts-axios 接口扩展/" },
-            { text: "拦截器实现", link: "/pages/ts-axios/07.ts-axios 拦截器实现/" },
-            { text: "配置化实现", link: "/pages/ts-axios/08.ts-axios 配置化实现/" },
-            { text: "取消功能实现", link: "/pages/ts-axios/09.ts-axios 取消功能实现/" },
-            { text: "更多功能实现", link: "/pages/ts-axios/10.ts-axios 更多功能实现/" },
+            {
+              text: "拦截器实现",
+              link: "/pages/ts-axios/07.ts-axios 拦截器实现/",
+            },
+            {
+              text: "配置化实现",
+              link: "/pages/ts-axios/08.ts-axios 配置化实现/",
+            },
+            {
+              text: "取消功能实现",
+              link: "/pages/ts-axios/09.ts-axios 取消功能实现/",
+            },
+            {
+              text: "更多功能实现",
+              link: "/pages/ts-axios/10.ts-axios 更多功能实现/",
+            },
             { text: "单元测试", link: "/pages/ts-axios/11.ts-axios 单元测试/" },
-            { text: "部署与发布", link: "/pages/ts-axios/12.ts-axios 部署与发布/" },
+            {
+              text: "部署与发布",
+              link: "/pages/ts-axios/12.ts-axios 部署与发布/",
+            },
           ],
         },
       ],

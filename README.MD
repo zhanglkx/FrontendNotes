@@ -1,7 +1,7 @@
 # 前端笔记 / Frontend Notes
 
 <p align="center">
-  <img width="180" src="./docs/public/img/logo.png" alt="logo">
+  <img width="180" src="https://raw.githubusercontent.com/Aniket965/Aniket965/master/pacman.svg?sanitize=true" alt="logo">
 </p>
 
 <p align="center">

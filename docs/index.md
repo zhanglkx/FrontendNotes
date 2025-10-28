@@ -14,7 +14,7 @@ hero:
       link: /pages/javascript/
     - theme: alt
       text: GitHub
-      link: https://github.com/zhanglkx
+      link: https://github.com/zhanglkx/FrontendNotes
 
 features:
   - icon: 💻
